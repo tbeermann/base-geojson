@@ -1,0 +1,25 @@
+{
+  "name": "base-geojson",
+  "version": "0.0.1",
+  "description": "GeoJson data access",
+  "author": "Tim Beermann <sabin21@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbeermann/base-geojson.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/caolan/async/raw/master/LICENSE"
+    }
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.3",
+    "fs": "0.0.2"
+  }
+}
